@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: pink;
+}
+
+h1{
+  padding: 50px;
+  font-size: 40px;
+}
+
+ul{
+  list-style-type: none;
+  font-size: 20px;
+}
+
+li{
+  padding: 15px;
+}
+
+h1, ul{
+  text-align: center;
+  width: 650px;
+  margin: 0 auto;
+}
