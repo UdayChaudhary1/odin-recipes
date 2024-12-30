@@ -1,19 +1,32 @@
 *{
-  background-color: pink;
-  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1, .description{
+body{
+  background-color: pink;
+  font-family: 'Times New Roman', Times, serif;
+  padding-bottom: 20px;
+}
+
+.main-heading, .sub-heading{
+  padding: 20px;
   text-align: center;
 }
 
 img{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 500px;
-  height: 500px;
+  width: 700px;
+  height: 700px;
+  margin: 0 auto;
 }
-p, ul, ol{
+
+.about, ul, ol{
   font-size: 20px;
+}
+
+.about, ul, .sub-heading, ol{
+  width: 700px;
+  margin: 0 auto;
 }
